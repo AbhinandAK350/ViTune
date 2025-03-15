@@ -60,7 +60,7 @@ import kotlin.time.Duration
 import kotlin.time.toJavaDuration
 
 private val VERSION_NAME = BuildConfig.VERSION_NAME.substringBeforeLast("-")
-private const val REPO_OWNER = "25huizengek1"
+private const val REPO_OWNER = "AbhinandAK350"
 private const val REPO_NAME = "ViTune"
 
 @RequiresApi(Build.VERSION_CODES.TIRAMISU)
