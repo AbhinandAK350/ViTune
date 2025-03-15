@@ -137,25 +137,6 @@ fun AppearanceSettings() = with(AppearancePreferences) {
             )
 
             EnumValueSelectorSettingsEntry(
-                title = stringResource(R.string.player_layout),
-                selectedValue = PlayerPreferences.playerLayout,
-                onValueSelect = { PlayerPreferences.playerLayout = it },
-                valueText = { it.displayName() }
-            )
-
-            AnimatedVisibility(
-                visible = PlayerPreferences.playerLayout == PlayerPreferences.PlayerLayout.New,
-                label = ""
-            ) {
-                SwitchSettingsEntry(
-                    title = stringResource(R.string.show_like_button),
-                    text = stringResource(R.string.show_like_button_description),
-                    isChecked = PlayerPreferences.showLike,
-                    onCheckedChange = { PlayerPreferences.showLike = it }
-                )
-            }
-
-            EnumValueSelectorSettingsEntry(
                 title = stringResource(R.string.seek_bar_style),
                 selectedValue = PlayerPreferences.seekBarStyle,
                 onValueSelect = { PlayerPreferences.seekBarStyle = it },

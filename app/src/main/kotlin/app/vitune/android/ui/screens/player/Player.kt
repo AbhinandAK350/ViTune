@@ -552,14 +552,7 @@ fun Player(
             layoutState = playerBottomSheetState,
             binder = binder,
             beforeContent = {
-                if (playerLayout == PlayerPreferences.PlayerLayout.New) IconButton(
-                    onClick = { trackLoopEnabled = !trackLoopEnabled },
-                    icon = R.drawable.infinite,
-                    enabled = trackLoopEnabled,
-                    modifier = Modifier
-                        .padding(vertical = 8.dp)
-                        .size(20.dp)
-                ) else Spacer(modifier = Modifier.width(20.dp))
+                Spacer(modifier = Modifier.width(20.dp))
             },
             afterContent = {
                 IconButton(
