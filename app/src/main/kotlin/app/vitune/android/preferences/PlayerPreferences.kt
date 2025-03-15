@@ -57,11 +57,6 @@ object PlayerPreferences : GlobalPreferencesHolder() {
     val sponsorBlockEnabledProperty = boolean(false)
     var sponsorBlockEnabled by sponsorBlockEnabledProperty
 
-//    enum class PlayerLayout(val displayName: @Composable () -> String) {
-//        Classic(displayName = { stringResource(R.string.classic_player_layout_name) }),
-//        New(displayName = { stringResource(R.string.new_player_layout_name) })
-//    }
-
     enum class SeekBarStyle(val displayName: @Composable () -> String) {
         Static(displayName = { stringResource(R.string.static_seek_bar_name) }),
         Wavy(displayName = { stringResource(R.string.wavy_seek_bar_name) })
