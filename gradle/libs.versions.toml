@@ -3,10 +3,10 @@ kotlin = "2.1.10"
 ksp = "2.1.0-1.0.29"
 
 jvm = "21"
-agp = "8.9.0"
+agp = "8.9.1"
 
-room = "2.6.1"
-media3 = "1.5.1"
+room = "2.7.0"
+media3 = "1.6.0"
 ktor = "3.1.1"
 detekt = "1.23.6"
 workmanager = "2.10.0"
@@ -26,19 +26,19 @@ ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
 detekt = { id = "io.gitlab.arturbosch.detekt", version.ref = "detekt" }
 
 [libraries]
-core_ktx = { module = "androidx.core:core-ktx", version = "1.15.0" }
+core_ktx = { module = "androidx.core:core-ktx", version = "1.16.0" }
 
 kotlin_coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version = "1.10.1" }
 kotlin_datetime = { module = "org.jetbrains.kotlinx:kotlinx-datetime", version = "0.6.1" }
 kotlin_immutable = { module = "org.jetbrains.kotlinx:kotlinx-collections-immutable", version = "0.3.8" }
 
-compose_bom = { module = "androidx.compose:compose-bom", version = "2025.03.00" }
+compose_bom = { module = "androidx.compose:compose-bom", version = "2025.04.00" }
 compose_animation = { module = "androidx.compose.animation:animation" }
 compose_foundation = { module = "androidx.compose.foundation:foundation" }
 compose_ui = { module = "androidx.compose.ui:ui" }
 compose_ui_util = { module = "androidx.compose.ui:ui-util" }
 compose_ui_fonts = { module = "androidx.compose.ui:ui-text-google-fonts" }
-compose_material3 = { module = "androidx.compose.material3:material3", version = "1.3.1" }
+compose_material3 = { module = "androidx.compose.material3:material3", version = "1.3.2" }
 
 compose_activity = { module = "androidx.activity:activity-compose", version = "1.10.1" }
 compose_shimmer = { module = "com.valentinilk.shimmer:compose-shimmer", version = "1.3.2" }
